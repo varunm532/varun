@@ -6,7 +6,8 @@ title: Student Blog
 
 ## Build you Home Page here 
 This is about your journey. Start now!!!
- 8/20/23: I fixed the code by typing a "#" on line 7 on Makefile so I can run "make" to run my local server.
+ 8/20/23: I fixed the code by typing a "#" on line 7 on Makefile so I can run "make" to run my local server. 
+ 8/22/23: "Make" didn't work because I accdently cloned the teacher repo to my student directory. To fix this: "ls teacher/" then "rm -rf teacher". This removed the teacher repo
 
 ## Overview of Hacks, Study and Tangibles
 Blogging in GitHub pages is a way to learn and code at the same time. 
