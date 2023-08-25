@@ -6,14 +6,19 @@ title: Student Blog
 ## About me
 ***
 
-- Hi my name is Varun and I am in 11th grade and this is my page. My github repositorie is [Github](https://github.com/varunm532/varun)
+<img src="csp.png" width="400" height="400">
+
+
+> -  <font color="green">Hi my name is Varun and I am in 11th grade and this is my page. My github repository is: <a href="https://github.com/varunm532/varun" target="_blank">Github</a>!</font>
+
 
 ## Errors I got and fixes 
 ***
 
-- 8/20/23: I fixed the code by typing a *#* on line 7 on Makefile so I can run *make* to run my local server.
-- 8/22/23: *Make* didn't work because I accdently cloned the teacher repo to my student directory. To fix this: *ls teacher/* then *rm -rf teacher*. This removed the teacher repository
-- 8/23/23: When *run all* in linux_shell.ipnb fail due to gem *mdless not found* typing in the vs terminal * gem install mdless * fixed the issue
+> -  <font color="green">8/20/23: I fixed the code by typing a *#* on line 7 on Makefile so I can run *make* to run my local server. <font>
+> -  <font color="green">*Make* didn't work because I accdently cloned the teacher repo to my student directory. To fix this: *ls teacher/* then *rm -rf teacher*. This removed the teacher repository <font>
+> -  <font color="green">8/23/23: When *run all* in linux_shell.ipnb fail due to gem *mdless not found* typing in the vs terminal * gem install mdless * fixed the issue <font>
+
 
 ## Overview of Hacks, Study and Tangibles
 ***
