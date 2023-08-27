@@ -6,7 +6,7 @@ title: Student Blog
 ## About me
 ***
 
-<img src="cspaboutme.png" width="500" height="500">
+<img src="images/cspaboutme.png" width="500" height="500">
 
 > -  <font color="green">Hi my name is Varun and I am in 11th grade and this is my page. My github repository is: <a href="https://github.com/varunm532/varun" target="_blank">Github</a>!</font>
 
