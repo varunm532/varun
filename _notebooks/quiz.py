@@ -6,7 +6,7 @@ def question_with_response(prompt):
     msg = input()
     return msg
 
-questions = 3
+questions = 7
 correct = 0
 
 print('Hello, ' + getpass.getuser() + " running " + sys.executable)
@@ -34,4 +34,35 @@ if rsp == "expression":
 else:
     print(rsp + " is incorrect!")
 
+rsp= question_with_response("What key word in python defines a function?")
+if rsp == "def":
+    print(rsp+ " is correct!")
+    correct += 1
+else:
+    print(rsp+ " is incorrect!")
+
+rsp= question_with_response("What key word turns a number into a string?")
+if rsp == "str":
+    print(rsp+ " is correct!")
+    correct += 1
+else:
+    print(rsp+ " is incorrect!")
+
+rsp= question_with_response("what command stores what the user types?")
+if rsp == "input":
+    print(rsp+ " is correct!")
+    correct += 1
+else:
+    print(rsp+ " is incorrect!")
+
+rsp= question_with_response("what command is followed b 'if'?")
+if rsp == "else":
+    print(rsp+ " is correct!")
+    correct += 1
+else:
+    print(rsp+ " is incorrect!")
+
+percentage = correct/questions *100
+
 print(getpass.getuser() + " you scored " + str(correct) +"/" + str(questions))
+print("or " + str(percentage) +"%")
